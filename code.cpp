@@ -4,6 +4,7 @@ int main() {
   int a, b;
   scanf("%d%d", &a, &b);
 
+    fprintf(stderr, "output to stderr hahahahaha\n");
     printf("%d\n", a + b);
   
   return 0;
